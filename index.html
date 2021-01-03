@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>weather</title>
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <h3>Weather Application</h3>
+        <form action="" class="search-city">
+            <input type="text" class="search" />
+            <button>search</button>
+        </form>
+        <div class="err color-style"></div>
+        <div class="loader"></div>
+        <div class="show-weather">
+            <div class="weather-content">
+                <div>Country: <span class="country color-style"></span></div>
+                <div>City: <span class="city color-style"></span></div>
+                <div class="color-style"><span class="deg"></span> deg</div>
+                <div><img class="icon color-style" src="" alt="" /></div>
+                <div><span class="condition color-style"></span></div>
+                <div>LOCAL TIME : <span class="local-time color-style"></span></div>
+                <div>
+                    LAST UPDATED : <span class="last-updated color-style"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/weather.js"></script>
+</body>
+
+</html>
